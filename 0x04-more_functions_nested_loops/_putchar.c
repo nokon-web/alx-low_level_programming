@@ -1,10 +1,8 @@
 #include "main.h"
-#include<unistd.>
+#include<unistd.h>
 /**
- *
- *
- *
- *
+ * this is the putchar
+ * retutn :putchar
  */
 int _putchar(char c)
 {
