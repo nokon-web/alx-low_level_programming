@@ -7,11 +7,16 @@
  * @dest: destination
  * @src:source
  * @n:integer
- * return:string dest
+ * return:string copy
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *copy = strncpy(dest, src, n);
+	int i = 0;
 
-	return (copy);
+	while (i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	return (dest);
 }
